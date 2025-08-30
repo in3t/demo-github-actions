@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Deploy to Render
         run: |
-          curl -X POST https://api.render.com/deploy/srv-cvg4hgjtq21c73e0f9e0?key=8hSW3dBzDAM
+          curl -X POST https://demo-github-actions-gwfo.onrender.com
 
 
