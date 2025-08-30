@@ -9,6 +9,9 @@ app.get("/action", (req, res) => {
     res.send("Github Actions with Render.com");
 });
 
+app.get("/render", (req, res) => {
+    res.send("Render.com with Github Actions");
+}
 
 const PORT = process.env.PORT || 3000;
 const server = app.listen(PORT, () => {
