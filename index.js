@@ -5,7 +5,7 @@ app.get("/", (req, res) => {
     res.send("Hello, CI/CD Pipeline!");
 });
 
-app.get("/hello", (req, res) => {
+app.get("/action", (req, res) => {
     res.send("Github Actions with Render.com");
 });
 
