@@ -1,0 +1,17 @@
+name: Deploy to Render
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to Render
+        run: |
+          curl -X POST https://api.render.com/deploy/srv-cvg4hgjtq21c73e0f9e0?key=8hSW3dBzDAM
+
+
