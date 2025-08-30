@@ -9,7 +9,7 @@ app.get("/action", (req, res) => {
     res.send("Github Actions with Render.com");
 });
 
-app.get("/action", (req, res) => {
+app.get("/render", (req, res) => {
     res.send("Github Actions with Render.com");
 });
 
