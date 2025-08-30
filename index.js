@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/hello", (req, res) => {
-    res.send("Hello");
+    res.send("Github Actions with Render.com");
 });
 
 
